@@ -1,9 +1,17 @@
-import './App.css';
+import React from 'react';
+import {Switch, route, Link} from "react-router-dom"
+import {Navbar} from "./components";
+
+
 
 function App() {
-  return (
+     return (
     <div className="App">
-   crptying
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main">main</div>
+      <div className="footer">footer</div>
     </div>
   );
 }

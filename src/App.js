@@ -33,7 +33,7 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        {/* <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
           <Link to="/">
             Cryptoverse Inc.
           </Link> <br />
@@ -43,7 +43,7 @@ const App = () => (
           <Link to="/">Home</Link>
           <Link to="/exchanges">Exchanges</Link>
           <Link to="/news">News</Link>
-        </Space> */}
+        </Space>
       </div>
     </div>
   </div>

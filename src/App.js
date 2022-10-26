@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, route, Link} from "react-router-dom"
 import {Navbar} from "./components";
-
+import './App.css';
 
 
 function App() {
